@@ -71,7 +71,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FindMaxGenericsTest">
+  <component name="RunManager" selected="Application.FindMaxGenerics">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array" />
       <module name="Generics.main" />
