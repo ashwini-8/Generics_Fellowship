@@ -59,4 +59,5 @@ public class FindMaxGenericsTest<findmax> {
         String max2 = findmax.testMaximumString("patil", "ashwini", "rajkumar");
         Assert.assertEquals((String) "rajkumar", max2);
     }
+
 }
