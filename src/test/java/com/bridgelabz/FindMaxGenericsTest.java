@@ -42,4 +42,21 @@ public class FindMaxGenericsTest<findmax> {
         Double max1 = findmax.testMaximumDouble(20.00, 30.00, 40.00);
         Assert.assertEquals((Double) 40.00, max1);
     }
+    @Test
+    public void givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum() {
+        String max2 = findmax.testMaximumString("rajkumar", "ashwini", "patil");
+        Assert.assertEquals((String) "rajkumar", max2);
+    }
+
+    @Test
+    public void givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum() {
+        String max2 = findmax.testMaximumString("ashwini", "rajkumar", "patil");
+        Assert.assertEquals((String) "rajkumar", max2);
+    }
+
+    @Test
+    public void givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum() {
+        String max2 = findmax.testMaximumString("patil", "ashwini", "rajkumar");
+        Assert.assertEquals((String) "rajkumar", max2);
+    }
 }

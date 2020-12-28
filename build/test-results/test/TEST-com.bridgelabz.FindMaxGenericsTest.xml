@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.FindMaxGenericsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-12-28T15:37:32" hostname="ASHWINI" time="0.005">
+<testsuite name="com.bridgelabz.FindMaxGenericsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-12-28T15:48:11" hostname="ASHWINI" time="0.211">
   <properties/>
   <testcase name="givenSecondFloatAsMaxNumber_ShouldReturnSecondFloatAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.003"/>
+  <testcase name="givenSecondLetterAsMaximum_ShouldReturnSecondLetterAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.206"/>
   <testcase name="givenSecondNumberAsMaXNumber_ShouldReturnSecondNumberAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.0"/>
   <testcase name="givenThirdFloatAsMaxNumber_ShouldReturnThirdFloatAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.0"/>
+  <testcase name="givenThirdLetterAsMaximum_ShouldReturnThirdLetterAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.001"/>
   <testcase name="givenThirdNumberAsMaXNumber_ShouldReturnThirdNumberAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.0"/>
   <testcase name="givenFirstNumberAsMaxNumber_ShouldReturn_FirstNumberAsMax" classname="com.bridgelabz.FindMaxGenericsTest" time="0.0"/>
+  <testcase name="givenFirstLetterAsMaximum_ShouldReturnFirstLetterAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.0"/>
   <testcase name="givenFirstFloatAsMaxNumber_ShouldReturnFirstFloatAsMaximum" classname="com.bridgelabz.FindMaxGenericsTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[Maximum letter is : rajkumar
+Maximum letter is : rajkumar
+Maximum letter is : rajkumar
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

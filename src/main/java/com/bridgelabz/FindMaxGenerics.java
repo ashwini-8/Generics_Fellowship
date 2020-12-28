@@ -26,6 +26,24 @@ public class FindMaxGenerics {
         }
         return max1;
     }
+    public String testMaximumString(String firstLetter, String secondLetter, String thirdLetter) {
+        int max = firstLetter.length();
+        String letter = firstLetter;
+        if (secondLetter.length() > max) {
+            max = secondLetter.length();
+            letter = secondLetter;
+        }
+        if (thirdLetter.length() > max) {
+            max = thirdLetter.length();
+            letter = thirdLetter;
+        }
+        printMax(letter);
+        return letter;
+    }
+
+    private void printMax(String letter) {
+        System.out.println("Maximum letter is : " + letter);
+    }
 
     private static void printMax(Integer max) {
         System.out.println(" Maximum number is : " + max);
