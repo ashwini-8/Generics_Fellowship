@@ -2,9 +2,13 @@ package com.bridgelabz;
 
 public class FindMaxGenerics {
             public static void main(String[] args) {
-                Integer[] numbers = {10, 20, 30};
+                Integer[] a = {10, 20, 30};
                 Double [] b ={1.1,1.2,1.3};
                 String [] c = {"ashwini","rajkuamr","patil"};
+
+                printMax(testMaximum(123, 234, 124));
+                printMax(testMaximumDouble(10.00,20.00,30.00));
+                printMax(testMaximumString("ashwini","rajkuamr","patil"));
             }
 
     public static <E extends Comparable<E>> E max(E[] list) {
@@ -35,7 +39,7 @@ public class FindMaxGenerics {
         }
         return max1;
     }
-    public String testMaximumString(String firstLetter, String secondLetter, String thirdLetter) {
+    public static String testMaximumString(String firstLetter, String secondLetter, String thirdLetter) {
         int max = firstLetter.length();
         String letter = firstLetter;
         if (secondLetter.length() > max) {
@@ -50,7 +54,13 @@ public class FindMaxGenerics {
         return letter;
     }
 
-    private void printMax(String letter) {
+    private static <E>void toPrint(E[] a) {
+        for (E i:a) {
+            System.out.println(i);
+        }
+    }
+
+    private static void printMax(String  letter) {
         System.out.println("Maximum letter is : " + letter);
     }
 
